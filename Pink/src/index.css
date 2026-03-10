@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --primary-color: #c94087;
+    --secondary-color: #7a428b;
+    --title: #af46a1;
+    --contrast: #be7acf;
+    --text-base: #000000;
+    --cta: #850052;
+    --background: #000000;
+    --text-color: #51235a;
+    --gradient1: linear-gradient(135deg, #be7da1, #000000);
+    --gradient2: linear-gradient(135deg, #ffffff, #a000df);
+    --font-base: "Reboto", sans-serif;
+    --font-title: "Playfair Display", serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-base);
+}
+
+body{
+    color:var(--text-color);
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--font-title);
+}
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
